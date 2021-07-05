@@ -1,11 +1,16 @@
+import Formulaire from "./Components/Form"
+import Navi from "./Components/Header"
 
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>TimeSheet</h1>
-      </header>
+      
+        <Navi/>
+        <Formulaire/>
+   
+   
     </div>
   );
 }
