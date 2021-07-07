@@ -1,19 +1,21 @@
 import React from 'react'
-
+import './TaskResume.css';
 const TaskResume = (props) => {
 
     console.log(props);
 
     return (
         
-                <div>
+                <div id="tlen">
                     
-                        <div className="taskName">Nom de la tâche: {props.div1}</div>,
-                        <div className="who">À exécuter par: {props.div3}</div>,
-                        <div className="taskExpl">Détails:{props.div2}</div>,
-                        <div className="dateFrom">A partir du {props.div4} à {props.div5}</div>,
-                        <div className="dateTo"> "Jusqu'au {props.div6} à "{props.div7}</div>
-                        
+                        <div className="titre">Nom de la tâche: </div>
+                        <div>{props.div1}</div>
+                        <div className="titre">À exécuter par: </div>
+                        <div>{props.div3}</div>
+                        <div className="titre">Détails:</div>
+                        <div>{props.div2}</div>
+                        <div className="titre">A partir du <span class="date"> {props.div4} </span> à <span class="date"> {props.div5} </span></div>
+                        <div className="titre">Jusqu'au <span class="date">{props.div6}</span> à <span class="date">{props.div7}</span></div>                   
                 </div>
                
         

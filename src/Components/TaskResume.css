@@ -1,0 +1,18 @@
+#tlen{
+    margin: auto;   
+    padding: 10px;
+    width: 75%;
+    text-align: center;
+    background-color: #EEEEEE;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.titre {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+
+.date{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
