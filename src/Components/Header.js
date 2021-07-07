@@ -1,7 +1,9 @@
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 
+
 function Navi(){
+    
     return(
         <nav className="navbar navbar-light bg-light">
         <span className="navbar-brand mb-0 h1">TimeSheet</span>

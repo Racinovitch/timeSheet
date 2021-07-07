@@ -1,0 +1,8 @@
+#cadre{
+    width: 50%;
+    border: dotted 2px paleturquoise;
+    border-radius: 25px;
+    padding: 10px;
+    background-color:#EEE;
+}
+
