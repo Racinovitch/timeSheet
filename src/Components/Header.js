@@ -8,10 +8,8 @@ function Navi(){
         <nav className="navbar navbar-light bg-light">
         <span className="navbar-brand mb-0 h1">TimeSheet</span>
         <Form className="d-flex w-50">
-        <Form.Label className="m-2 w-25">e-mail</Form.Label>
-        <Form.Control type="email" placeholder="votre email" />
-        <Form.Label className="m-2">Password</Form.Label>
-        <Form.Control type="password" placeholder="votre password" />
+        <Form.Label className="m-2 w-25">Username :</Form.Label>
+        <Form.Control type="text" placeholder="Username" />
         <Button variant="primary" type="submit">
         Submit
         </Button>

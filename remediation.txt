@@ -1,0 +1,5 @@
+21/07/21
+- Supprimer une tache 
+- Ajout de plusieurs taches 
+- Local storage (Lifecycle of component)
+
